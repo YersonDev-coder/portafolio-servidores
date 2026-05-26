@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Página no encontrada</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Space+Mono:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #F8F6F4;
+      color: #3A342E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error__code {
+      font-family: 'Space Mono', monospace;
+      font-size: 8rem;
+      color: #C8102E;
+      line-height: 1;
+    }
+    .error__msg { font-size: 1.25rem; color: #6B6259; margin: 1rem 0 2rem; }
+    .error__link {
+      display: inline-block;
+      padding: 12px 32px;
+      background: #C8102E;
+      color: #fff;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background .3s;
+    }
+    .error__link:hover { background: #9B0D23; }
+  </style>
+</head>
+<body>
+  <div>
+    <p class="error__code">404</p>
+    <p class="error__msg">La página que buscas no existe o fue movida.</p>
+    <a href="/" class="error__link">Volver al inicio</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio de Yerson Rojas Vilca — Ingeniería de Sistemas, UNHEVAL" />
+  <meta name="author" content="Yerson Rojas Vilca" />
+  <title>Yerson Rojas Vilca | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ====== NAV SENTINEL ====== -->
+  <div id="nav-sentinel" aria-hidden="true"></div>
+
+  <!-- ====== NAVBAR ====== -->
+  <header id="site-header" class="navbar">
+    <div class="navbar__inner container">
+      <a href="#inicio" class="navbar__brand" data-scroll-link>
+        <span class="navbar__logo">YR</span>
+        <span class="navbar__name">Yerson Rojas</span>
+      </a>
+      <button class="navbar__toggle" id="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="navbar__nav">
+        <ul class="navbar__list">
+          <li><a href="#inicio" data-scroll-link class="nav-link active">Inicio</a></li>
+          <li><a href="#sobre-mi" data-scroll-link class="nav-link">Sobre mí</a></li>
+          <li><a href="#educacion" data-scroll-link class="nav-link">Educación</a></li>
+          <li><a href="#cursos" data-scroll-link class="nav-link">Cursos</a></li>
+          <li><a href="#certificados" data-scroll-link class="nav-link">Certificados</a></li>
+          <li><a href="#proyectos" data-scroll-link class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" data-scroll-link class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ====== HERO ====== -->
+    <section id="inicio" class="section section--hero" data-section>
+      <div class="hero__bg-pattern"></div>
+      <div class="container hero">
+        <div class="hero__text animate-in">
+          <p class="hero__eyebrow">¡Hola! Soy</p>
+          <h1 class="hero__name">Yerson Rojas Vilca</h1>
+          <p class="hero__role">Ingeniería de Sistemas · Ciberseguridad</p>
+          <p class="hero__desc">Estudiante de Ingeniería de Sistemas en la UNHEVAL con interés en ciberseguridad, desarrollo web y transformación digital. Apasionado por la programación asistida con IA y el marketing digital.</p>
+          <div class="hero__cta">
+            <a href="#proyectos" data-scroll-link class="btn btn--primary"><i class="fa-solid fa-rocket"></i> Ver proyectos</a>
+            <a href="#contacto" data-scroll-link class="btn btn--outline"><i class="fa-solid fa-envelope"></i> Contáctame</a>
+          </div>
+        </div>
+        <div class="hero__photo animate-in animate-in--delay">
+          <div class="hero__photo-frame">
+            <img src="assets/img/yo.png" alt="Yerson Rojas Vilca" />
+          </div>
+          <div class="hero__photo-badge">
+            <span>🇵🇪</span> Huánuco, Perú
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SOBRE MÍ ====== -->
+    <section id="sobre-mi" class="section" data-section>
+      <div class="container">
+        <header class="section__head">
+          <span class="section__number">01</span>
+          <h2 class="section__title">Sobre mí</h2>
+          <div class="section__line"></div>
+        </header>
+        <div class="about">
+          <div class="about__bio animate-on-scroll">
+            <p>Tengo 21 años y soy de <strong>Huánuco, Perú</strong> 🇵🇪. Actualmente curso Ingeniería de Sistemas en la <strong>Universidad Nacional Hermilio Valdizán (UNHEVAL)</strong> con especialidad en ciberseguridad.</p>
+            <p>Me apasiona el mundo de la tecnología, desde el desarrollo web hasta la infraestructura de servidores. Creo en el poder de la inteligencia artificial como herramienta para potenciar la productividad y la innovación.</p>
+            <p>Fuera del código, me interesa el marketing digital y las ventas, áreas donde combino lo técnico con lo estratégico para generar valor.</p>
+          </div>
+          <div class="about__facts animate-on-scroll">
+            <div class="fact-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <div><strong>Ciudad</strong><span>Huánuco, Perú</span></div>
+            </div>
+            <div class="fact-card">
+              <i class="fa-solid fa-university"></i>
+              <div><strong>Universidad</strong><span>UNHEVAL</span></div>
+            </div>
+            <div class="fact-card">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div><strong>Carrera</strong><span>Ingeniería de Sistemas</span></div>
+            </div>
+            <div class="fact-card">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div><strong>Especialidad</strong><span>Ciberseguridad</span></div>
+            </div>
+            <div class="fact-card">
+              <i class="fa-solid fa-calendar"></i>
+              <div><strong>Inicio</strong><span>2023</span></div>
+            </div>
+            <div class="fact-card">
+              <i class="fa-solid fa-cake-candles"></i>
+              <div><strong>Edad</strong><span>21 años</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EDUCACIÓN ====== -->
+    <section id="educacion" class="section section--alt" data-section>
+      <div class="container">
+        <header class="section__head">
+          <span class="section__number">02</span>
+          <h2 class="section__title">Educación</h2>
+          <div class="section__line"></div>
+        </header>
+        <div class="timeline">
+          <div class="timeline__item animate-on-scroll">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">5 años</span>
+              <h3>I.E. El Amauta, José Carlos Mariátegui</h3>
+              <p>Educación secundaria. Formación integral con valores y disciplina académica.</p>
+            </div>
+          </div>
+          <div class="timeline__item animate-on-scroll">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2023 — Actualidad</span>
+              <h3>Universidad Nacional Hermilio Valdizán</h3>
+              <p>Ingeniería de Sistemas con especialidad en Ciberseguridad. Cursando materias de redes, programación, física e ingeniería de requerimientos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CURSOS ====== -->
+    <section id="cursos" class="section" data-section>
+      <div class="container">
+        <header class="section__head">
+          <span class="section__number">03</span>
+          <h2 class="section__title">Cursos</h2>
+          <div class="section__line"></div>
+        </header>
+        <div class="courses-grid">
+
+          <article class="course-card animate-on-scroll">
+            <div class="course-card__icon"><i class="fa-solid fa-file-signature"></i></div>
+            <h3>Ingeniería de Requerimientos</h3>
+            <span class="course-card__meta">UNHEVAL · 2023</span>
+            <p>Identificación y desarrollo de requisitos funcionales y no funcionales. Métodos, técnicas y herramientas para gestionar necesidades de clientes con metodologías ágiles y tradicionales.</p>
+          </article>
+
+          <article class="course-card animate-on-scroll">
+            <div class="course-card__icon"><i class="fa-solid fa-atom"></i></div>
+            <h3>Física I</h3>
+            <span class="course-card__meta">UNHEVAL · 2023</span>
+            <p>Principios de mecánica: cinemática, dinámica, estática y dinámica de cuerpos rígidos. Aplicación de conceptos físicos en situaciones reales y resolución de problemas de ingeniería.</p>
+          </article>
+
+          <article class="course-card animate-on-scroll">
+            <div class="course-card__icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Física II</h3>
+            <span class="course-card__meta">UNHEVAL · 2023</span>
+            <p>Electricidad, magnetismo, mecánica de fluidos, termodinámica, elasticidad y oscilaciones. Desarrollo de pensamiento crítico con sesiones de laboratorio.</p>
+          </article>
+
+          <article class="course-card animate-on-scroll">
+            <div class="course-card__icon"><i class="fa-solid fa-network-wired"></i></div>
+            <h3>Redes</h3>
+            <span class="course-card__meta">UNHEVAL · 2024</span>
+            <p>Fundamentos de redes de datos, configuración de routers y switches, seguridad de redes y actividades prácticas para diseñar infraestructura eficaz.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CERTIFICADOS ====== -->
+    <section id="certificados" class="section section--alt" data-section>
+      <div class="container">
+        <header class="section__head">
+          <span class="section__number">04</span>
+          <h2 class="section__title">Certificados</h2>
+          <div class="section__line"></div>
+        </header>
+        <p class="section__subtitle">Mi galería de certificaciones obtenidas a lo largo de los años.</p>
+
+        <!-- Filters -->
+        <div class="cert-filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="ingenieria">Ingeniería</button>
+          <button class="filter-btn" data-filter="salud">Ciencias de la Salud</button>
+          <button class="filter-btn" data-filter="negocios">Negocios</button>
+        </div>
+
+        <div class="cert-grid">
+
+          <!-- Cert 1 -->
+          <article class="cert-card animate-on-scroll" data-category="ingenieria">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2020</span>
+            </div>
+            <h3>Ingeniería de Llenado de Techo de Calamina</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/1techocalamina.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 2 -->
+          <article class="cert-card animate-on-scroll" data-category="ingenieria">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2020</span>
+            </div>
+            <h3>Ingeniería de Apuestas</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/2apuestas.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 3 -->
+          <article class="cert-card animate-on-scroll" data-category="ingenieria">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2020</span>
+            </div>
+            <h3>Soldadura de Madera</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/3soldadura.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 4 -->
+          <article class="cert-card animate-on-scroll" data-category="ingenieria">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2020</span>
+            </div>
+            <h3>Ingeniería en Armado de Vasitos</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/4vasos.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 5 -->
+          <article class="cert-card animate-on-scroll" data-category="ingenieria">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2021</span>
+            </div>
+            <h3>Mecánico de Transformers</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/5transformers.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 6 -->
+          <article class="cert-card animate-on-scroll" data-category="ingenieria">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2021</span>
+            </div>
+            <h3>Piloto de Carrito Anticuchero</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/6piloto.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 7 -->
+          <article class="cert-card animate-on-scroll" data-category="salud">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2021</span>
+            </div>
+            <h3>Nutricionista de Perros Robóticos</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/7perros.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 8 -->
+          <article class="cert-card animate-on-scroll" data-category="salud">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2021</span>
+            </div>
+            <h3>Técnico en Vacuna 5G</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/8vacuna5g.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 9 -->
+          <article class="cert-card animate-on-scroll" data-category="salud">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2021</span>
+            </div>
+            <h3>Farmacia de Recarga de Saldo</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/9recarga.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 10 -->
+          <article class="cert-card animate-on-scroll" data-category="salud">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2021</span>
+            </div>
+            <h3>Medicina Astral</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/10medicinaastral.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 11 -->
+          <article class="cert-card animate-on-scroll" data-category="salud">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2022</span>
+            </div>
+            <h3>Obstetricia de Kinesiologas</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/11obstreticiia.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 12 -->
+          <article class="cert-card animate-on-scroll" data-category="salud">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2022</span>
+            </div>
+            <h3>Obstetricia de Abortos</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/12obstetricia2.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 13 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2022</span>
+            </div>
+            <h3>Analista de Créditos Gota a Gota</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/13analista_creditos.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 14 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2022</span>
+            </div>
+            <h3>Administración de Telos</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/14administracion_telos.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 15 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2022</span>
+            </div>
+            <h3>Catador de Gampis</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/15catador_gampis.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 16 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2023</span>
+            </div>
+            <h3>Caficho de Onlyfans</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/16caficho_onlyfans.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 17 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2023</span>
+            </div>
+            <h3>Amasador de Chinos</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/17amasador_chinos.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 18 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2023</span>
+            </div>
+            <h3>Pelador de Pollo Profesional</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/18pollo.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 19 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2024</span>
+            </div>
+            <h3>Traductor de Vacas Voladoras</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/19vacas.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+          <!-- Cert 20 -->
+          <article class="cert-card animate-on-scroll" data-category="negocios">
+            <div class="cert-card__top">
+              <i class="fa-solid fa-award"></i>
+              <span class="cert-card__year">2024</span>
+            </div>
+            <h3>Corredor Inmobiliario y Venta de Terrenos en Marte</h3>
+            <p class="cert-card__issuer">Universidad Nacional Sideral Carrión</p>
+            <a href="assets/pdf/certificados/20marte.pdf" target="_blank" class="btn btn--small"><i class="fa-solid fa-file-pdf"></i> Ver PDF</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PROYECTOS ====== -->
+    <section id="proyectos" class="section" data-section>
+      <div class="container">
+        <header class="section__head">
+          <span class="section__number">05</span>
+          <h2 class="section__title">Proyectos de Inspiración</h2>
+          <div class="section__line"></div>
+        </header>
+        <p class="section__subtitle">Proyectos open-source que me inspiraron y de los cuales aprendí técnicas y buenas prácticas.</p>
+
+        <div class="projects-grid">
+
+          <article class="project-card animate-on-scroll">
+            <div class="project-card__header">
+              <i class="fa-solid fa-folder-open"></i>
+              <div class="project-card__links">
+                <a href="https://github.com/LukasMartc/listit" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://lukasmartc.github.io/listit/" target="_blank" rel="noopener" aria-label="Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3>ListIt — Gestor de Tareas</h3>
+            <p>Aplicación web minimalista para gestionar tareas diarias con CRUD completo. Usa LocalStorage para persistencia y tiene diseño responsive.</p>
+            <div class="project-card__tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>LocalStorage</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll">
+            <div class="project-card__header">
+              <i class="fa-solid fa-folder-open"></i>
+              <div class="project-card__links">
+                <a href="https://github.com/authorTom/nginx-static-host" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>NGINX Static Host — Servidor Web con Docker</h3>
+            <p>Configuración profesional de Docker con NGINX para sitios web estáticos. Incluye seguridad HTTP, compresión Gzip y políticas de caché.</p>
+            <div class="project-card__tags">
+              <span>Docker</span><span>NGINX</span><span>Alpine Linux</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll">
+            <div class="project-card__header">
+              <i class="fa-solid fa-folder-open"></i>
+              <div class="project-card__links">
+                <a href="https://github.com/Ramaa128/api-productos-flask-o-flask-products-api" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>API REST de Productos con Flask</h3>
+            <p>API RESTful completa para gestionar catálogo de productos con CRUD. Validación con Marshmallow, SQLite y documentación Swagger/OpenAPI.</p>
+            <div class="project-card__tags">
+              <span>Python</span><span>Flask</span><span>SQLAlchemy</span><span>Swagger</span>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll">
+            <div class="project-card__header">
+              <i class="fa-solid fa-folder-open"></i>
+              <div class="project-card__links">
+                <a href="https://github.com/mariely01/Inventario" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>Sistema de Inventario en PHP</h3>
+            <p>Sistema web de inventario con registro, consulta, edición y eliminación de productos. Incluye filtros, búsqueda y control de stock.</p>
+            <div class="project-card__tags">
+              <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CONTACTO ====== -->
+    <section id="contacto" class="section section--alt" data-section>
+      <div class="container">
+        <header class="section__head">
+          <span class="section__number">06</span>
+          <h2 class="section__title">Contacto</h2>
+          <div class="section__line"></div>
+        </header>
+        <p class="section__subtitle">¿Tienes una idea o proyecto? ¡Hablemos!</p>
+        <div class="contact-grid">
+          <a href="mailto:zyersonrojasvilca7z@gmail.com" class="contact-card animate-on-scroll">
+            <i class="fa-solid fa-envelope"></i>
+            <strong>Email</strong>
+            <span>zyersonrojasvilca7z@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/yerson-rojas-vilca-a31431402/" target="_blank" rel="noopener" class="contact-card animate-on-scroll">
+            <i class="fa-brands fa-linkedin"></i>
+            <strong>LinkedIn</strong>
+            <span>Yerson Rojas Vilca</span>
+          </a>
+          <a href="https://www.instagram.com/zyersonrojasvilca7z/" target="_blank" rel="noopener" class="contact-card animate-on-scroll">
+            <i class="fa-brands fa-instagram"></i>
+            <strong>Instagram</strong>
+            <span>@zyersonrojasvilca7z</span>
+          </a>
+          <a href="https://www.facebook.com/yerson.rojasvilca.7/" target="_blank" rel="noopener" class="contact-card animate-on-scroll">
+            <i class="fa-brands fa-facebook"></i>
+            <strong>Facebook</strong>
+            <span>Yerson Rojas Vilca</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Yerson Rojas Vilca — Hecho con HTML, CSS y JS</p>
+      <ul class="site-footer__socials">
+        <li><a href="https://www.facebook.com/yerson.rojasvilca.7/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="https://www.instagram.com/zyersonrojasvilca7z/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/yerson-rojas-vilca-a31431402/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="mailto:zyersonrojasvilca7z@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ====== BOTÓN VOLVER ARRIBA ====== -->
+  <button id="back-to-top" class="back-to-top" aria-label="Volver arriba" hidden>
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
